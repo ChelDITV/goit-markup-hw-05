@@ -516,21 +516,15 @@ body {
   align-items: center;
   justify-content: center;
   margin-right: 8px;
+  fill: transparent;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.checkbox-icon {
-  fill: transparent;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
 input:checked+.privacy-label .checkbox-custom {
+  fill: #F4F4FD;
   background-color: #404bbf;
   border: none;
-}
-
-input:checked+.privacy-label .checkbox-icon {
-  fill: #F4F4FD;
 }
 
 .privacy-link {
@@ -778,17 +772,23 @@ input:checked+.privacy-label .checkbox-icon {
 
 .modal-submit-btn {
   padding: 12px 24px;
-  background-color: #404bbf;
+  background-color: #4D5AE5;
   color: white;
   border: none;
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
 }
 
 .modal-submit-btn:hover {
-  background-color: #2E2F42;
+  background-color: #404bbf;
 }
