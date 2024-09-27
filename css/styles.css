@@ -652,7 +652,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--modal-text-color, #2E2F42);
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 
 
@@ -663,9 +663,12 @@ body {
 
 
 .form-group {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
+.form-group-privacy {
+  margin-bottom: 24px;
+}
 
 .form-label {
   font-size: 12px;
